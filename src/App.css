@@ -1,0 +1,25 @@
+.esthafont{
+  font-family: "Dancing Script", cursive;
+  /* font-optical-sizing: auto; */
+  /* font-style: normal; */
+}
+
+.books-card-image:hover {
+  transform: scale(1.02); /* You can adjust the scaling factor as per your preference */
+  transition: transform 0.3s ease-in-out; /* Adjust the transition duration if needed */
+}
+
+.books-card:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow on hover */
+  transform: translateY(-5px); /* Lift the card slightly on hover */
+  transition: box-shadow 0.3s ease, transform 0.3s ease; /* Add a smooth transition */
+}
+
+.slick-prev,
+.slick-next {
+    /* font-family:initial!important; */
+    color:yellow;
+}
+
+
+
